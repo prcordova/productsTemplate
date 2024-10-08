@@ -1,3 +1,5 @@
+/* styles/globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,12 +7,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-text: #000000;
+  --secondary-text: #555555;
+  --accent-color: #ff0000;
+  /* Adicione mais variáveis conforme necessário */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #fbfbfb;
+    --foreground: #000000;
+    --primary-text: #ffffff;
+    --secondary-text: #cccccc;
+    --accent-color: #00ff00;
+    /* Atualize as variáveis para o tema escuro */
   }
 }
 
@@ -23,5 +33,10 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+
+  .hover\:line-clamp-none:hover {
+    @apply line-clamp-none;
   }
 }

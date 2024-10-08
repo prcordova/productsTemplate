@@ -1,8 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Caroussel } from "@/components/caroussel";
 import ProductCard from "@/components/productCard";
-import products from "../data/products.json";
+import products from "@/data/products.json";
 import {
   TextField,
   Select,
@@ -16,7 +15,7 @@ const removeAccents = (str: string): string => {
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 };
 
-const Home: React.FC = () => {
+const ProductsPage: React.FC = () => {
   const [category, setCategory] = useState<string>("Todos");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [sortOrder, setSortOrder] = useState<string>("name-asc");
@@ -94,80 +93,74 @@ const Home: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">
-        {/* Container para vídeo ou imagem de apresentação */}
-        <Caroussel />
+      <main className="flex-grow container mx-auto p-4">
+        <h1 className="text-3xl font-bold mb-4">Produtos</h1>
 
-        {/* Seção de produtos */}
-        <section className="container mx-auto p-4">
-          <h2 className="text-2xl font-bold mb-4">Produtos em Destaque</h2>
+        {/* Filtros e ordenação */}
+        <div className="flex flex-wrap gap-4 mb-4">
+          {/* Campo de busca */}
+          <TextField
+            label="Buscar"
+            variant="outlined"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
 
-          {/* Filtros e ordenação */}
-          <div className="flex flex-wrap gap-4 mb-4">
-            {/* Campo de busca */}
-            <TextField
-              label="Buscar"
-              variant="outlined"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-
-            {/* Seleção de categoria */}
-            <FormControl variant="outlined" style={{ minWidth: 120 }}>
-              <InputLabel>Categoria</InputLabel>
-              <Select
-                value={category}
-                onChange={(e) => setCategory(e.target.value as string)}
-                label="Categoria"
-              >
-                {categories.map((cat) => (
-                  <MenuItem key={cat} value={cat}>
-                    {cat}
-                  </MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-
-            {/* Ordenação */}
-            <FormControl variant="outlined" style={{ minWidth: 160 }}>
-              <InputLabel>Ordenar por</InputLabel>
-              <Select
-                value={sortOrder}
-                onChange={(e) => setSortOrder(e.target.value as string)}
-                label="Ordenar por"
-              >
-                <MenuItem value="name-asc">Nome (A-Z)</MenuItem>
-                <MenuItem value="name-desc">Nome (Z-A)</MenuItem>
-                <MenuItem value="price-asc">Preço (menor para maior)</MenuItem>
-                <MenuItem value="price-desc">Preço (maior para menor)</MenuItem>
-              </Select>
-            </FormControl>
-          </div>
-
-          {/* Lista de produtos */}
-          {displayedProducts.length === 0 ? (
-            <p>Nenhum produto encontrado.</p>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {displayedProducts.map((product) => (
-                <ProductCard key={product.id} {...product} />
+          {/* Seleção de categoria */}
+          <FormControl variant="outlined" style={{ minWidth: 120 }}>
+            <InputLabel>Categoria</InputLabel>
+            <Select
+              value={category}
+              onChange={(e) => setCategory(e.target.value as string)}
+              label="Categoria"
+            >
+              {categories.map((cat) => (
+                <MenuItem key={cat} value={cat}>
+                  {cat}
+                </MenuItem>
               ))}
-            </div>
-          )}
+            </Select>
+          </FormControl>
 
-          {/* Paginação */}
-          <div className="flex justify-center mt-4">
-            <Pagination
-              count={totalPages}
-              page={currentPage}
-              onChange={(event, value) => setCurrentPage(value)}
-              color="primary"
-            />
+          {/* Ordenação */}
+          <FormControl variant="outlined" style={{ minWidth: 160 }}>
+            <InputLabel>Ordenar por</InputLabel>
+            <Select
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value as string)}
+              label="Ordenar por"
+            >
+              <MenuItem value="name-asc">Nome (A-Z)</MenuItem>
+              <MenuItem value="name-desc">Nome (Z-A)</MenuItem>
+              <MenuItem value="price-asc">Preço (menor para maior)</MenuItem>
+              <MenuItem value="price-desc">Preço (maior para menor)</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
+
+        {/* Lista de produtos */}
+        {displayedProducts.length === 0 ? (
+          <p>Nenhum produto encontrado.</p>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {displayedProducts.map((product) => (
+              <ProductCard key={product.id} {...product} />
+            ))}
           </div>
-        </section>
+        )}
+
+        {/* Paginação */}
+        <div className="flex justify-center mt-4">
+          <Pagination
+            count={totalPages}
+            page={currentPage}
+            onChange={(event, value) => setCurrentPage(value)}
+            color="primary"
+          />
+        </div>
       </main>
     </div>
   );
 };
 
-export default Home;
+export default ProductsPage;

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Granito Preto São Gabriel",
+    "description": "Granito escuro com textura uniforme, ideal para bancadas.",
+    "price": 2000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000001"
+  },
+  {
+    "id": 2,
+    "name": "Mármore Carrara",
+    "description": "Mármore branco clássico com veios cinza elegantes.",
+    "price": 2500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000002"
+  },
+  {
+    "id": 3,
+    "name": "Quartzo Stone Branco",
+    "description": "Superfície de quartzo branca com alta resistência e durabilidade.",
+    "price": 3000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000003"
+  },
+  {
+    "id": 4,
+    "name": "Granito Verde Ubatuba",
+    "description": "Granito verde escuro com pontos dourados, perfeito para cozinhas.",
+    "price": 1800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000004"
+  },
+  {
+    "id": 5,
+    "name": "Mármore Travertino",
+    "description": "Mármore bege com textura única, ideal para pisos e paredes.",
+    "price": 2700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000005"
+  },
+  {
+    "id": 6,
+    "name": "Quartzo Cinza Urban",
+    "description": "Quartzo cinza moderno, perfeito para ambientes contemporâneos.",
+    "price": 3200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000006"
+  },
+  {
+    "id": 7,
+    "name": "Granito Branco Siena",
+    "description": "Granito branco com veios sutis, trazendo luminosidade ao ambiente.",
+    "price": 2100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000007"
+  },
+  {
+    "id": 8,
+    "name": "Mármore Nero Marquina",
+    "description": "Mármore preto elegante com veios brancos marcantes.",
+    "price": 2800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000008"
+  },
+  {
+    "id": 9,
+    "name": "Quartzo Rosa Glamour",
+    "description": "Quartzo rosa que adiciona um toque de sofisticação ao espaço.",
+    "price": 3500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000009"
+  },
+  {
+    "id": 10,
+    "name": "Granito Amarelo Ornamental",
+    "description": "Granito amarelo com nuances marrons, ideal para áreas externas.",
+    "price": 1900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000010"
+  },
+  {
+    "id": 11,
+    "name": "Mármore Calacatta",
+    "description": "Mármore branco de luxo com veios cinza espessos.",
+    "price": 5000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000011"
+  },
+  {
+    "id": 12,
+    "name": "Quartzo Azul Sky",
+    "description": "Quartzo azul que traz tranquilidade e elegância.",
+    "price": 3600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000012"
+  },
+  {
+    "id": 13,
+    "name": "Granito Vermelho Brasília",
+    "description": "Granito vermelho vibrante, perfeito para detalhes especiais.",
+    "price": 2200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000013"
+  },
+  {
+    "id": 14,
+    "name": "Mármore Botticino",
+    "description": "Mármore bege claro com veios delicados.",
+    "price": 2600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000014"
+  },
+  {
+    "id": 15,
+    "name": "Quartzo Preto Stellar",
+    "description": "Quartzo preto com partículas brilhantes que lembram estrelas.",
+    "price": 3400,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000015"
+  },
+  {
+    "id": 16,
+    "name": "Granito Cinza Corumbá",
+    "description": "Granito cinza versátil para diversas aplicações.",
+    "price": 1700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000016"
+  },
+  {
+    "id": 17,
+    "name": "Mármore Rosa Verona",
+    "description": "Mármore rosa suave que traz delicadeza ao ambiente.",
+    "price": 2900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000017"
+  },
+  {
+    "id": 18,
+    "name": "Quartzo Amarelo Siena",
+    "description": "Quartzo amarelo vibrante para ambientes cheios de energia.",
+    "price": 3300,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000018"
+  },
+  {
+    "id": 19,
+    "name": "Granito Marrom Café",
+    "description": "Granito marrom escuro, ideal para ambientes rústicos.",
+    "price": 2000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000019"
+  },
+  {
+    "id": 20,
+    "name": "Mármore Verde Alpi",
+    "description": "Mármore verde profundo com veios claros.",
+    "price": 3100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000020"
+  },
+  {
+    "id": 21,
+    "name": "Quartzo Vermelho Passion",
+    "description": "Quartzo vermelho intenso que destaca qualquer ambiente.",
+    "price": 3700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000021"
+  },
+  {
+    "id": 22,
+    "name": "Granito Azul Norueguês",
+    "description": "Granito azul com tons prateados, raro e exclusivo.",
+    "price": 4500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000022"
+  },
+  {
+    "id": 23,
+    "name": "Mármore Marrom Imperial",
+    "description": "Mármore marrom com veios dourados, trazendo luxo ao espaço.",
+    "price": 2800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000023"
+  },
+  {
+    "id": 24,
+    "name": "Quartzo Verde Esmeralda",
+    "description": "Quartzo verde que remete à natureza e tranquilidade.",
+    "price": 3500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000024"
+  },
+  {
+    "id": 25,
+    "name": "Granito Branco Dallas",
+    "description": "Granito claro com pontos escuros, versátil e elegante.",
+    "price": 1900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000025"
+  },
+  {
+    "id": 26,
+    "name": "Mármore Branco Pighês",
+    "description": "Mármore branco puro, ideal para ambientes clean.",
+    "price": 2600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000026"
+  },
+  {
+    "id": 27,
+    "name": "Quartzo Lilás Dream",
+    "description": "Quartzo lilás que traz suavidade e modernidade.",
+    "price": 3400,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000027"
+  },
+  {
+    "id": 28,
+    "name": "Granito Rosa Itaúnas",
+    "description": "Granito rosado com grãos finos, delicado e resistente.",
+    "price": 1800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000028"
+  },
+  {
+    "id": 29,
+    "name": "Mármore Crema Marfil",
+    "description": "Mármore bege claro com veios sutis, clássico e sofisticado.",
+    "price": 2700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000029"
+  },
+  {
+    "id": 30,
+    "name": "Quartzo Laranja Sunset",
+    "description": "Quartzo laranja que traz calor e energia ao ambiente.",
+    "price": 3600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000030"
+  },
+  {
+    "id": 31,
+    "name": "Granito Giallo Napole",
+    "description": "Granito amarelo com veios escuros, ideal para detalhes.",
+    "price": 2100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000031"
+  },
+  {
+    "id": 32,
+    "name": "Mármore Branco Thassos",
+    "description": "Mármore branco puro, raro e extremamente elegante.",
+    "price": 5500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000032"
+  },
+  {
+    "id": 33,
+    "name": "Quartzo Branco Puro",
+    "description": "Quartzo branco sem veios, para um visual clean.",
+    "price": 3100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000033"
+  },
+  {
+    "id": 34,
+    "name": "Granito Ocre Itabira",
+    "description": "Granito com tons ocres, ideal para ambientes rústicos.",
+    "price": 2000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000034"
+  },
+  {
+    "id": 35,
+    "name": "Mármore Azul Macaúbas",
+    "description": "Mármore azul único, perfeito para projetos exclusivos.",
+    "price": 6000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000035"
+  },
+  {
+    "id": 36,
+    "name": "Quartzo Cinza Cement",
+    "description": "Quartzo cinza que remete ao concreto, moderno e urbano.",
+    "price": 3200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000036"
+  },
+  {
+    "id": 37,
+    "name": "Granito Branco Ceará",
+    "description": "Granito claro com grãos escuros, resistente e versátil.",
+    "price": 1900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000037"
+  },
+  {
+    "id": 38,
+    "name": "Mármore Gris Armani",
+    "description": "Mármore cinza sofisticado com veios marcantes.",
+    "price": 2900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000038"
+  },
+  {
+    "id": 39,
+    "name": "Quartzo Dourado Lux",
+    "description": "Quartzo com partículas douradas, luxo e elegância.",
+    "price": 3800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000039"
+  },
+  {
+    "id": 40,
+    "name": "Granito Vermelho Bragança",
+    "description": "Granito vermelho intenso, ideal para ambientes vibrantes.",
+    "price": 2200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000040"
+  },
+  {
+    "id": 41,
+    "name": "Mármore Branco Paraná",
+    "description": "Mármore brasileiro de alta qualidade, branco com veios sutis.",
+    "price": 2800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000041"
+  },
+  {
+    "id": 42,
+    "name": "Quartzo Preto Absoluto",
+    "description": "Quartzo preto profundo, para um visual impactante.",
+    "price": 3400,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000042"
+  },
+  {
+    "id": 43,
+    "name": "Granito Cinza Andorinha",
+    "description": "Granito cinza claro com textura homogênea.",
+    "price": 1700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000043"
+  },
+  {
+    "id": 44,
+    "name": "Mármore Verde Guatemala",
+    "description": "Mármore verde escuro com veios brancos elegantes.",
+    "price": 3100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000044"
+  },
+  {
+    "id": 45,
+    "name": "Quartzo Bege Sahara",
+    "description": "Quartzo bege que traz aconchego ao ambiente.",
+    "price": 3300,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000045"
+  },
+  {
+    "id": 46,
+    "name": "Granito Preto Indiano",
+    "description": "Granito preto de alta densidade, resistente e elegante.",
+    "price": 2300,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000046"
+  },
+  {
+    "id": 47,
+    "name": "Mármore Champagne",
+    "description": "Mármore bege claro com veios dourados suaves.",
+    "price": 2700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000047"
+  },
+  {
+    "id": 48,
+    "name": "Quartzo Branco Stellar",
+    "description": "Quartzo branco com partículas brilhantes, moderno e sofisticado.",
+    "price": 3500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000048"
+  },
+  {
+    "id": 49,
+    "name": "Granito Amarelo Florença",
+    "description": "Granito amarelo com veios suaves, ideal para ambientes claros.",
+    "price": 2000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000049"
+  },
+  {
+    "id": 50,
+    "name": "Mármore Nero Portoro",
+    "description": "Mármore preto com veios dourados, luxo e exclusividade.",
+    "price": 5800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000050"
+  },
+  {
+    "id": 51,
+    "name": "Quartzo Verde Lime",
+    "description": "Quartzo verde claro, trazendo frescor ao ambiente.",
+    "price": 3600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000051"
+  },
+  {
+    "id": 52,
+    "name": "Granito Azul Macaúbas",
+    "description": "Granito azul exótico, perfeito para projetos únicos.",
+    "price": 4800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000052"
+  },
+  {
+    "id": 53,
+    "name": "Mármore Crema Valencia",
+    "description": "Mármore bege com nuances alaranjadas, elegante e acolhedor.",
+    "price": 2900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000053"
+  },
+  {
+    "id": 54,
+    "name": "Quartzo Cinza Platinum",
+    "description": "Quartzo cinza com brilho sutil, moderno e sofisticado.",
+    "price": 3200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000054"
+  },
+  {
+    "id": 55,
+    "name": "Granito Branco Polar",
+    "description": "Granito branco com pontos cinza, clean e versátil.",
+    "price": 1900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000055"
+  },
+  {
+    "id": 56,
+    "name": "Mármore Onix",
+    "description": "Mármore translúcido, ideal para iluminação especial.",
+    "price": 7000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000056"
+  },
+  {
+    "id": 57,
+    "name": "Quartzo Vermelho Ruby",
+    "description": "Quartzo vermelho vibrante, destaque em qualquer espaço.",
+    "price": 3700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000057"
+  },
+  {
+    "id": 58,
+    "name": "Granito Preto Absoluto",
+    "description": "Granito preto intenso, clássico e elegante.",
+    "price": 2400,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000058"
+  },
+  {
+    "id": 59,
+    "name": "Mármore Beige Paraná",
+    "description": "Mármore bege brasileiro, versátil e sofisticado.",
+    "price": 2600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000059"
+  },
+  {
+    "id": 60,
+    "name": "Quartzo Rosa Elegance",
+    "description": "Quartzo rosa suave, adicionando delicadeza ao ambiente.",
+    "price": 3500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000060"
+  },
+  {
+    "id": 61,
+    "name": "Granito Cinza Corumbá Light",
+    "description": "Variedade clara do granito Corumbá, elegante e resistente.",
+    "price": 1800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000061"
+  },
+  {
+    "id": 62,
+    "name": "Mármore Rosa Aurora",
+    "description": "Mármore rosa com veios brancos, delicado e sofisticado.",
+    "price": 2900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000062"
+  },
+  {
+    "id": 63,
+    "name": "Quartzo Branco Galaxy",
+    "description": "Quartzo branco com pontos brilhantes, moderno e elegante.",
+    "price": 3400,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000063"
+  },
+  {
+    "id": 64,
+    "name": "Granito Verde Labrador",
+    "description": "Granito verde escuro com reflexos azulados, único e sofisticado.",
+    "price": 2500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000064"
+  },
+  {
+    "id": 65,
+    "name": "Mármore Botticino Classico",
+    "description": "Mármore bege com veios suaves, clássico e atemporal.",
+    "price": 2700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000065"
+  },
+  {
+    "id": 66,
+    "name": "Quartzo Preto Galaxy",
+    "description": "Quartzo preto com partículas brilhantes, elegante e moderno.",
+    "price": 3500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000066"
+  },
+  {
+    "id": 67,
+    "name": "Granito Amarelo Maracujá",
+    "description": "Granito amarelo vibrante com veios escuros.",
+    "price": 2000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000067"
+  },
+  {
+    "id": 68,
+    "name": "Mármore Verde Alpi Scuro",
+    "description": "Mármore verde escuro com veios intensos.",
+    "price": 3100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000068"
+  },
+  {
+    "id": 69,
+    "name": "Quartzo Amarelo Gold",
+    "description": "Quartzo amarelo que traz luminosidade ao ambiente.",
+    "price": 3300,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000069"
+  },
+  {
+    "id": 70,
+    "name": "Granito Branco Fortaleza",
+    "description": "Granito branco com grãos finos, ideal para ambientes claros.",
+    "price": 1900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000070"
+  },
+  {
+    "id": 71,
+    "name": "Mármore Nero Saint Laurent",
+    "description": "Mármore preto com veios dourados, luxuoso e sofisticado.",
+    "price": 5800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000071"
+  },
+  {
+    "id": 72,
+    "name": "Quartzo Azul Ocean",
+    "description": "Quartzo azul que traz serenidade ao ambiente.",
+    "price": 3600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000072"
+  },
+  {
+    "id": 73,
+    "name": "Granito Cinza Absolute",
+    "description": "Granito cinza uniforme, moderno e versátil.",
+    "price": 2100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000073"
+  },
+  {
+    "id": 74,
+    "name": "Mármore Branco Estatuário",
+    "description": "Mármore branco com veios cinza escuro, nobre e elegante.",
+    "price": 5500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000074"
+  },
+  {
+    "id": 75,
+    "name": "Quartzo Cinza Silver",
+    "description": "Quartzo cinza claro com brilho sutil.",
+    "price": 3200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000075"
+  },
+  {
+    "id": 76,
+    "name": "Granito Preto Via Láctea",
+    "description": "Granito preto com veios brancos que lembram estrelas.",
+    "price": 2500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000076"
+  },
+  {
+    "id": 77,
+    "name": "Mármore Crema Botticino",
+    "description": "Mármore bege clássico, elegante e versátil.",
+    "price": 2700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000077"
+  },
+  {
+    "id": 78,
+    "name": "Quartzo Verde Jade",
+    "description": "Quartzo verde intenso, trazendo natureza ao ambiente.",
+    "price": 3500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000078"
+  },
+  {
+    "id": 79,
+    "name": "Granito Vermelho Itaipu",
+    "description": "Granito vermelho com veios escuros, vibrante e resistente.",
+    "price": 2200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000079"
+  },
+  {
+    "id": 80,
+    "name": "Mármore Branco Extra",
+    "description": "Mármore branco puro, de alta qualidade e elegância.",
+    "price": 5000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000080"
+  },
+  {
+    "id": 81,
+    "name": "Quartzo Laranja Coral",
+    "description": "Quartzo laranja suave, trazendo calor ao ambiente.",
+    "price": 3600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000081"
+  },
+  {
+    "id": 82,
+    "name": "Granito Cinza Mauá",
+    "description": "Granito cinza com grãos finos, versátil e resistente.",
+    "price": 1700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000082"
+  },
+  {
+    "id": 83,
+    "name": "Mármore Rosa Claro",
+    "description": "Mármore rosa delicado, ideal para ambientes suaves.",
+    "price": 2900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000083"
+  },
+  {
+    "id": 84,
+    "name": "Quartzo Preto Night",
+    "description": "Quartzo preto com brilho sutil, moderno e elegante.",
+    "price": 3400,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000084"
+  },
+  {
+    "id": 85,
+    "name": "Granito Amarelo Icaraí",
+    "description": "Granito amarelo com veios suaves, ideal para cozinhas.",
+    "price": 2000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000085"
+  },
+  {
+    "id": 86,
+    "name": "Mármore Verde Jade",
+    "description": "Mármore verde com veios claros, elegante e único.",
+    "price": 3100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000086"
+  },
+  {
+    "id": 87,
+    "name": "Quartzo Branco Snow",
+    "description": "Quartzo branco puro, clean e moderno.",
+    "price": 3100,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000087"
+  },
+  {
+    "id": 88,
+    "name": "Granito Preto Aracruz",
+    "description": "Granito preto profundo, clássico e resistente.",
+    "price": 2300,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000088"
+  },
+  {
+    "id": 89,
+    "name": "Mármore Beige Valencia",
+    "description": "Mármore bege com nuances quentes, elegante e acolhedor.",
+    "price": 2700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000089"
+  },
+  {
+    "id": 90,
+    "name": "Quartzo Azul Royal",
+    "description": "Quartzo azul intenso, trazendo sofisticação.",
+    "price": 3600,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000090"
+  },
+  {
+    "id": 91,
+    "name": "Granito Verde Pérola",
+    "description": "Granito verde com pontos brilhantes, único e sofisticado.",
+    "price": 2500,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000091"
+  },
+  {
+    "id": 92,
+    "name": "Mármore Cinza Athens",
+    "description": "Mármore cinza claro, moderno e elegante.",
+    "price": 2900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000092"
+  },
+  {
+    "id": 93,
+    "name": "Quartzo Dourado Sun",
+    "description": "Quartzo dourado que traz brilho e sofisticação.",
+    "price": 3800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000093"
+  },
+  {
+    "id": 94,
+    "name": "Granito Branco Cristal",
+    "description": "Granito branco com brilho sutil, elegante e versátil.",
+    "price": 1900,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000094"
+  },
+  {
+    "id": 95,
+    "name": "Mármore Onix White",
+    "description": "Mármore translúcido branco, ideal para efeitos de iluminação.",
+    "price": 7000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000095"
+  },
+  {
+    "id": 96,
+    "name": "Quartzo Cinza Shadow",
+    "description": "Quartzo cinza escuro, moderno e sofisticado.",
+    "price": 3200,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000096"
+  },
+  {
+    "id": 97,
+    "name": "Granito Marrom Tabaco",
+    "description": "Granito marrom escuro, ideal para ambientes rústicos.",
+    "price": 2000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000097"
+  },
+  {
+    "id": 98,
+    "name": "Mármore Branco Paraná Light",
+    "description": "Variedade clara do mármore Paraná, elegante e clean.",
+    "price": 2800,
+    "image": "https://via.placeholder.com/800",
+    "category": "Mármores",
+    "whatsapp": "550000000098"
+  },
+  {
+    "id": 99,
+    "name": "Quartzo Rosa Pink",
+    "description": "Quartzo rosa vibrante, para ambientes ousados.",
+    "price": 3700,
+    "image": "https://via.placeholder.com/800",
+    "category": "Quartzos",
+    "whatsapp": "550000000099"
+  },
+  {
+    "id": 100,
+    "name": "Granito Azul Bahia",
+    "description": "Granito azul profundo, raro e luxuoso.",
+    "price": 5000,
+    "image": "https://via.placeholder.com/800",
+    "category": "Granitos",
+    "whatsapp": "550000000100"
+  }
+]
