@@ -21,16 +21,3 @@ export const MapInfo: React.FC = () => {
     </div>
   );
 };
-<div className={styles.mapContainer}>
-  <iframe
-    width="100%"
-    height="300"
-    frameborder="2"
-    scrolling="no"
-    marginheight="0"
-    marginwidth="0"
-    src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=canoas,%20Rua%20Santos%20Ferreira,%203.070+(Localiza%C3%A7%C3%A3o)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-  >
-    <a href="https://www.gps.ie/">gps systems</a>
-  </iframe>
-</div>;
