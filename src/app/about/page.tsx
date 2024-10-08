@@ -11,7 +11,7 @@ const AboutPage: React.FC = () => {
         <SectionWithImage
           title="Nossa História"
           content="Conte aqui a história da sua empresa. Este é um texto de exemplo que você pode substituir pelo conteúdo real."
-          imageSrc="www.google.com/url?sa=i&url=https%3A%2F%2Ftododia.com.br%2Fcidades%2Fprograma-crianca-feliz-realiza-adesao-de-familias-de-hortolandia%2F&psig=AOvVaw1ocPOxzFeTmabKU_cNfcuM&ust=1728514771454000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCNi7vx_4gDFQAAAAAdAAAAABAE"
+          imageSrc="https://via.placeholder.com/600x400"
           bgColor="white"
         />
 
