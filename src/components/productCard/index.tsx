@@ -3,7 +3,6 @@
 import React from "react";
 
 interface ProductCardProps {
-  id: number;
   name?: string;
   description?: string;
   price?: number;
@@ -12,7 +11,6 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({
-  id,
   name,
   description,
   price,
