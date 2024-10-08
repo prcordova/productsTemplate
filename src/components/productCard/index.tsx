@@ -1,6 +1,8 @@
 // ProductCard.tsx
 
-import React from "react";
+import React, { useState } from "react";
+import { Modal } from "@mui/material";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
 interface ProductCardProps {
   name?: string;
@@ -17,6 +19,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
   image,
   whatsapp,
 }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const handleWhatsAppClick = () => {
     const message = `Olá, vi o produto ${
       name || ""
@@ -27,10 +31,17 @@ const ProductCard: React.FC<ProductCardProps> = ({
     );
   };
 
+  const handleImageClick = () => {
+    setIsModalOpen(true);
+  };
+
   return (
     <div className="border rounded-lg p-4 flex flex-col h-[450px]">
       {image && (
-        <div className="h-48 w-full overflow-hidden flex-shrink-0">
+        <div
+          className="h-48 w-full overflow-hidden flex-shrink-0 cursor-pointer"
+          onClick={handleImageClick}
+        >
           <img
             src={image}
             alt={name || "Produto"}
@@ -61,6 +72,31 @@ const ProductCard: React.FC<ProductCardProps> = ({
       >
         Fale conosco no WhatsApp
       </button>
+
+      {/* Modal para exibir a imagem ampliada */}
+      <Modal
+        open={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        className="flex items-center justify-center"
+        BackdropProps={{
+          className: "bg-black bg-opacity-75",
+        }}
+      >
+        <div className="relative">
+          <img
+            src={image}
+            alt={name || "Produto"}
+            className="max-w-full max-h-screen"
+          />
+          <button
+            className="absolute top-2 right-2 text-white text-3xl"
+            onClick={() => setIsModalOpen(false)}
+            aria-label="Fechar"
+          >
+            <AiOutlineCloseCircle />
+          </button>
+        </div>
+      </Modal>
     </div>
   );
 };

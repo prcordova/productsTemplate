@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-primary p-4 shadow-md">
+    <header className="bg-primary p-4 shadow-md mb-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-accent text-2xl font-bold">
           Magnani
@@ -11,9 +11,9 @@ const Header: React.FC = () => {
           <Link href="/about" className="mx-2">
             Sobre
           </Link>
-          <Link href="/projects" className="mx-2">
+          {/* <Link href="/projects" className="mx-2">
             Projetos
-          </Link>
+          </Link> */}
           <Link href="/products" className="mx-2">
             Produtos
           </Link>
